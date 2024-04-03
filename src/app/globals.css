@@ -118,7 +118,7 @@ a {
   padding: 1rem;
   margin: 1rem;
   border-radius: var(--border-radius);
-  background: white;
+  background: linear-gradient(120deg, lightblue, lightpink);
   color: black;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   border: 1px solid transparent;
@@ -162,6 +162,10 @@ a {
   transition: all 0.3s ease;
 }
 
+/* .skill-badge:hover {
+  background-color: lightskyblue;
+} */
+
 .skill-badge-text {
   margin: 0;
 }
@@ -169,12 +173,14 @@ a {
 .title {
   text-align: center;
   font-size: 4rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .description {
   text-align: center;
   font-size: 1rem;
   margin-top: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .heading-container {
@@ -195,4 +201,8 @@ a {
   letter-spacing: 0.5px;
   transition: all 0.3s ease;
   cursor: pointer;
+}
+
+.button:hover {
+  background-color: lightskyblue;
 }

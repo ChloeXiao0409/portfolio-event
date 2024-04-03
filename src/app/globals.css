@@ -124,6 +124,7 @@ a {
   border: 1px solid transparent;
   border-image: var(--tile-border) 1;
   transition: all 0.3s ease;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .portfolio-entry-card-image-container {
